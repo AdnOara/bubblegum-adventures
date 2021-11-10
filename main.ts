@@ -181,21 +181,21 @@ function startLevel () {
     }
     for (let value5 of tiles.getTilesByType(assets.tile`tile4`)) {
         flower = sprites.create(img`
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . f f f f f f f . . . . 
-            . . . . f 5 5 5 5 5 5 5 f . . . 
-            . . . f 5 5 4 4 4 4 5 5 5 f . . 
-            . . f 5 5 5 5 5 5 5 5 5 5 5 f . 
-            . . f 5 4 5 5 5 5 5 5 5 5 5 f . 
-            . . f 5 4 5 5 5 5 5 5 5 5 5 f . 
-            . . f 5 4 5 5 5 5 5 5 5 5 5 f . 
-            . . f 5 4 5 5 5 5 5 5 5 5 5 f . 
-            . . f 5 4 5 5 5 5 5 5 5 5 5 f . 
-            . . f 5 4 5 5 5 5 5 5 5 5 5 f . 
-            . . . f 5 5 4 4 5 5 5 5 5 f . . 
-            . . . . f 5 5 5 5 5 5 5 f . . . 
-            . . . . . f f f f f f f . . . . 
+            . . . . . . b b b b a a . . . . 
+            . . . . b b d d d 3 3 3 a a . . 
+            . . . b d d d 3 3 3 3 3 3 a a . 
+            . . b d d 3 3 3 3 3 3 3 3 3 a . 
+            . b 3 d 3 3 3 3 3 b 3 3 3 3 a b 
+            . b 3 3 3 3 3 a a 3 3 3 3 3 a b 
+            b 3 3 3 3 3 a a 3 3 3 3 d a 4 b 
+            b 3 3 3 3 b a 3 3 3 3 3 d a 4 b 
+            b 3 3 3 3 3 3 3 3 3 3 d a 4 4 e 
+            a 3 3 3 3 3 3 3 3 3 d a 4 4 4 e 
+            a 3 3 3 3 3 3 3 d d a 4 4 4 e . 
+            a a 3 3 3 d d d a a 4 4 4 e e . 
+            . e a a a a a a 4 4 4 4 e e . . 
+            . . e e b b 4 4 4 4 b e e . . . 
+            . . . e e e e e e e e . . . . . 
             . . . . . . . . . . . . . . . . 
             `, SpriteKind.Coin)
         animation.runImageAnimation(
@@ -277,22 +277,22 @@ function startLevel () {
     }
     for (let value5 of tiles.getTilesByType(assets.tile`tile33`)) {
         flower = sprites.create(img`
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . f f f f f f f . . . . 
-            . . . . f 5 5 5 5 5 5 5 f . . . 
-            . . . f 5 5 4 4 4 4 5 5 5 f . . 
-            . . f 5 5 5 5 5 5 5 5 5 5 5 f . 
-            . . f 5 4 5 5 5 5 5 5 5 5 5 f . 
-            . . f 5 4 5 5 5 5 5 5 5 5 5 f . 
-            . . f 5 4 5 5 5 5 5 5 5 5 5 f . 
-            . . f 5 4 5 5 5 5 5 5 5 5 5 f . 
-            . . f 5 4 5 5 5 5 5 5 5 5 5 f . 
-            . . f 5 4 5 5 5 5 5 5 5 5 5 f . 
-            . . . f 5 5 4 4 5 5 5 5 5 f . . 
-            . . . . f 5 5 5 5 5 5 5 f . . . 
-            . . . . . f f f f f f f . . . . 
-            . . . . . . . . . . . . . . . . 
+            . . . . . . . . . . b b b . . . 
+            . . . . . . . . b e e 3 3 b . . 
+            . . . . . . b b e 3 2 e 3 a . . 
+            . . . . b b 3 3 e 2 2 e 3 3 a . 
+            . . b b 3 3 3 3 3 e e 3 3 3 a . 
+            b b 3 3 3 3 3 3 3 3 3 3 3 3 3 a 
+            b 3 3 3 d d d d 3 3 3 3 3 d d a 
+            b b b b b b b 3 d d d d d d 3 a 
+            b d 5 5 5 5 d b b b a a a a a a 
+            b 3 d d 5 5 5 5 5 5 5 d d d d a 
+            b 3 3 3 3 3 3 d 5 5 5 d d d d a 
+            b 3 d 5 5 5 3 3 3 3 3 3 b b b a 
+            b b b 3 d 5 5 5 5 5 5 5 d d b a 
+            . . . b b b 3 d 5 5 5 5 d d 3 a 
+            . . . . . . b b b b 3 d d d b a 
+            . . . . . . . . . . b b b a a . 
             `, SpriteKind.Coin)
         animation.runImageAnimation(
         flower,
@@ -373,49 +373,49 @@ function startLevel () {
     }
     for (let value6 of tiles.getTilesByType(assets.tile`tile5`)) {
         flower = sprites.create(img`
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . 8 . . . . . . . . 
-            . . . . . . 8 6 8 . . . . . . . 
-            . . . . . 8 6 6 6 8 . . . . . . 
-            . . . . . 8 6 9 6 8 . . . . . . 
-            . . . . 8 8 6 6 6 8 8 . . . . . 
-            . . . 8 6 6 6 6 6 6 6 8 . . . . 
-            . . . 8 6 9 6 6 6 6 6 8 . . . . 
-            . . . 8 6 9 6 6 6 6 6 8 . . . . 
-            . . . 8 6 6 9 6 6 6 6 8 . . . . 
-            . . . 8 6 6 6 6 6 6 6 8 . . . . 
-            . . . . 8 8 6 6 6 8 8 . . . . . 
-            . . . . . 8 8 8 8 8 . . . . . . 
+            . . . . . b b b b b b . . . . . 
+            . . . . b d d d d b d b . . . . 
+            . . . b d d d d d d d d b . . . 
+            . . . b d d b d d d d d b . . . 
+            . . b d d d d d d d d d d b . . 
+            . . b d d d d d d d b d d b . . 
+            . . b d d d d d d d d d d b . . 
+            . . b d f d d d f f d f d b . . 
+            . . b f b f d f d d f d f b . . 
+            . . b d d d f d d d d d d b . . 
+            . . b d d d d d d d d d d b . . 
+            . . b d d d d b d d d d d b . . 
+            . . . b d d d d d d b d b . . . 
+            . . . b d b d d d d d d b . . . 
+            . . . . b d d d d d d b . . . . 
+            . . . . . b b b b b b . . . . . 
             `, SpriteKind.Flower)
         tiles.placeOnTile(flower, value6)
         tiles.setTileAt(value6, assets.tile`tile0`)
     }
     for (let value6 of tiles.getTilesByType(assets.tile`tile34`)) {
         flower = sprites.create(img`
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . 7 . . . . . . . . 
-            . . . . . . 7 7 7 . . . . . . . 
-            . . . . . 7 7 7 7 7 . . . . . . 
-            . . . . . 7 7 7 7 7 . . . . . . 
-            . . . . 7 7 7 5 7 7 7 . . . . . 
-            . . . 7 7 7 7 7 7 7 7 7 . . . . 
-            . . . 7 5 7 7 7 7 7 7 7 . . . . 
-            . . . 7 5 7 7 7 7 7 7 7 . . . . 
-            . . . 7 7 5 7 7 7 7 7 7 . . . . 
-            . . . 7 7 7 7 7 7 7 7 7 . . . . 
-            . . . . 7 7 7 7 7 7 7 . . . . . 
-            . . . . . 7 7 7 7 7 . . . . . . 
+            . . . . . 6 6 6 6 6 6 . . . . . 
+            . . . . 6 9 9 9 9 6 9 6 . . . . 
+            . . . 6 9 9 9 9 9 9 9 9 6 . . . 
+            . . . 6 9 9 6 9 9 9 9 9 6 . . . 
+            . . 6 9 9 9 9 9 9 9 9 9 9 6 . . 
+            . . 6 9 9 9 9 9 9 9 6 9 9 6 . . 
+            . . 6 9 9 9 9 9 9 9 9 9 9 6 . . 
+            . . 6 9 f 9 9 9 f f 9 f 9 6 . . 
+            . . 6 f 6 f 9 f 9 9 f 9 f 6 . . 
+            . . 6 9 9 9 f 9 9 9 9 9 9 6 . . 
+            . . 6 9 9 9 9 9 9 9 9 9 9 6 . . 
+            . . 6 9 9 9 9 6 9 9 9 9 9 6 . . 
+            . . . 6 9 9 9 9 9 9 6 9 6 . . . 
+            . . . 6 9 6 9 9 9 9 9 9 6 . . . 
+            . . . . 6 9 9 9 9 9 9 6 . . . . 
+            . . . . . 6 6 6 6 6 6 . . . . . 
             `, SpriteKind.FLOWER2)
         tiles.placeOnTile(flower, value6)
         tiles.setTileAt(value6, assets.tile`tile0`)
     }
-    for (let value7 of tiles.getTilesByType(assets.tile`tile11`)) {
+    for (let value7 of tiles.getTilesByType(assets.tile`tile35`)) {
         fireball = sprites.create(img`
             . . . . . . . . . . . . . . . . 
             . . . . . . . . . . . . . . . . 
